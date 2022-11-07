@@ -32,6 +32,7 @@ describe('createUser', () => {
     expect(newUser.username).toEqual(ripley.username);
     expect(newUser.password).toEqual(ripley.password);
     expect(newUser.email).toEqual(ripley.email);
+
   });
 });
 
@@ -103,7 +104,6 @@ describe('findUserById',  () => {
     expect(existingUser.email).toEqual(adam.email);
   });
 });
-
 
 describe('findAllUsers',  () => {
 
